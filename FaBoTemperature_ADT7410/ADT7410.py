@@ -68,7 +68,7 @@ BIT16_OP_MODE_3FAULT  = 0x02
 BIT16_OP_MODE_4FAULT  = 0x03
 
 ## smbus
-bus = smbus.SMBus(1)
+bus = smbus.SMBus(5)
 
 ## FaBo Temperature I2C Controll class
 class ADT7410:
